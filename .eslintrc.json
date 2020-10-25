@@ -13,5 +13,11 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "jsx-quotes": ["warn", "prefer-single"],
+    "eol-last": ["warn", "always"],
+    "indent": ["warn", 2],
+    "key-spacing": ["warn"],
+    "no-unused-vars": ["warn"],
+    "no-undef": ["off"]
   }
 }
